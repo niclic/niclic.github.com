@@ -2,9 +2,9 @@ div.container {
     padding-top: 40px;
 }
 
-.sidebar > header {
+.sidebar > .content {
     position: fixed;
-    width: inherit;
+	width: inherit;
 }
 
 .article-title {

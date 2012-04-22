@@ -19,7 +19,6 @@
 		<link rel="stylesheet" href="assets/stylesheets/base.css">
 		<link rel="stylesheet" href="assets/stylesheets/skeleton.css">
 		<link rel="stylesheet" href="assets/stylesheets/layout.css">
-
 		<link rel="stylesheet" href="assets/stylesheets/custom.css">
 		
 		<!--[if lt IE 9]>
@@ -28,19 +27,15 @@
 	</head>
 	<body>
 		<div class="container">	
-			<header>
-				<div class="six columns sidebar">
-					<a href="/"><div class="masthead">S<span class="lower">oftwary</span></div></a>
-					<blockquote>
-						<p>Don't believe everything you read online. Especially this crap.</p>
-					</blockquote>
-				</div>
-			</header>
-			<content>
-				<div class="ten columns">
-					{{ content }}
-				</div>
-			</content>
+			<div class="six columns sidebar">
+				<a href="/"><div class="masthead">S<span class="lower">oftwary</span></div></a>
+				<blockquote>
+					<p>Don't believe everything you read online. Especially this crap.</p>
+				</blockquote>
+			</div>
+			<div class="ten columns content">
+				{{ content }}
+			</div>
 		</div>
 	</body>
 </html>
