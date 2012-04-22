@@ -1,1 +1,1 @@
-jekyll:  jekyll --server
+jekyll:  jekyll  --auto --server
