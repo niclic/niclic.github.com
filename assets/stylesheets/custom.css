@@ -51,6 +51,16 @@ footer p {
 
 a {
 	text-decoration: none;
+	color: #999999
+}
+
+a:hover {
+	color: #999999;
+	text-decoration: underline; 
+}
+
+.sidebar a:hover {
+	text-decoration: none; 
 }
 
 /* Smaller than standard 960 (devices and browsers) */
