@@ -1,14 +1,15 @@
 ---
 layout: default
-title: Softwary
+title: Softwary - A(nother) blog about software.
 ---
-
-<p>Don't believe everything you read on the internet - least of all this crap.</p>
 
 <ul id="posts">
   {% for post in site.posts %}
     <li>
-      <a href="{{ post.url }}">{{ post.title }}</a>
+      <a href="{{ post.url }}"><p class="article-title">{{ post.title }}</p></a>
     </li>
   {% endfor %}
 </ul>
+<footer>
+	{% include copyright.html %}
+</footer>
