@@ -37,15 +37,19 @@ p {
 	font-size:80%;
 }
 
-footer{
-	line-height: 30px;
+p.published {
+	font-size: 12px;
+	font-style: italic;
+	margin-top: 10px;
+	line-height: 15px;
+	color: #999999;
 }
 
-footer p {
+.footer p,
+.footer a {
+	font-size: 10px;
 	margin-top: 10px;
-	font-size: 12px;
-	font-weight: 500;
-	font-style: normal;
+	line-height: 10px;
 	color: #999999;
 }
 

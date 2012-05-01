@@ -4,6 +4,8 @@ layout: default
 
 {{ content }}
 
+<p class="published">Originally published {{ page.month }} {{ page.day}}, {{ page.year }}</p>
+
 {% if page.comments %}
 	<div id="disqus_thread"></div>
 	<script type="text/javascript">
@@ -27,7 +29,4 @@ layout: default
 	<a href="http://disqus.com" class="dsq-brlink">blog comments powered by <span class="logo-disqus">Disqus</span></a>
 {% endif %}
 
-<footer>
-	<a href="/"><p>Home</p></a>
-	{% include copyright.html %}
-</footer>
+{% include footer.html %}
