@@ -37,12 +37,23 @@ p {
 	font-size:80%;
 }
 
+sup {
+	font-size:12px; 
+	vertical-align: super;
+}
+
+
 p.published {
 	font-size: 12px;
 	font-style: italic;
 	margin-top: 10px;
 	line-height: 15px;
 	color: #999999;
+}
+
+div.references p {
+	font-size: 14px;
+	line-height: 24px;	
 }
 
 .footer p,
