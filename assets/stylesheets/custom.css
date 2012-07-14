@@ -34,14 +34,22 @@ p {
 }
 
 .lower {
-	font-size:80%;
+	font-size: 80%;
 }
 
 sup {
-	font-size:12px; 
+	font-size: 12px; 
 	vertical-align: super;
 }
 
+blockquote p { 
+	margin-bottom: 0px;  
+}
+
+h5 {
+	font-family: "HelveticaNeue", "Helvetica Neue", Helvetica, Arial, sans-serif;
+	color: #444;
+}
 
 p.published {
 	font-size: 12px;
