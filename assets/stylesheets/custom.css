@@ -39,7 +39,7 @@ p {
 
 sup {
 	font-size: 12px; 
-	vertical-align: super;
+	vertical-align: 25%;
 }
 
 blockquote p { 
