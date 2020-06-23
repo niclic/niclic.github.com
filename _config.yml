@@ -1,2 +1,4 @@
 regeneration: true
 permalink: /:categories/:title.html
+
+theme: jekyll-theme-minimal
